@@ -32,7 +32,7 @@ $(function () {
         var p1 = $('<p></p>');
         var p2 = $('<div></div>');
         var span = $('<span></span>');
-        img.attr('src','imagesx/'+(index+1)+'.jpeg');
+        img.attr('src','xiaomi/imagesx/'+(index+1)+'.jpeg');
         $(this).append(img);
         $(this).append(p);
         $(this).append(p1);
@@ -48,7 +48,7 @@ $(function () {
         var p1 = $('<p></p>');
         var p2 = $('<div></div>');
         var span = $('<span></span>');
-        img.attr('src','imagesx/0'+(index+1)+'.jpeg');
+        img.attr('src','xiaomi/imagesx/0'+(index+1)+'.jpeg');
         $(this).append(img);
         $(this).append(p);
         $(this).append(p1);
@@ -64,7 +64,7 @@ $(function () {
         var p1 = $('<p></p>');
         var p2 = $('<div></div>');
         var span = $('<span></span>');
-        img.attr('src','imagesx/00'+(index+1)+'.jpeg');
+        img.attr('src','xiaomi/imagesx/00'+(index+1)+'.jpeg');
         $(this).append(img);
         $(this).append(p);
         $(this).append(p1);
@@ -80,7 +80,7 @@ $(function () {
         var p1 = $('<p></p>');
         var p2 = $('<div></div>');
         var span = $('<span></span>');
-        img.attr('src','imagesx/000'+(index+1)+'.jpeg');
+        img.attr('src','xiaomi/imagesx/000'+(index+1)+'.jpeg');
         $(this).append(img);
         $(this).append(p);
         $(this).append(p1);
@@ -96,7 +96,7 @@ $(function () {
         var p1 = $('<p></p>');
         var p2 = $('<div></div>');
         var span = $('<span></span>');
-        img.attr('src','imagesx/1'+(index+1)+'.jpg');
+        img.attr('src','xiaomi/imagesx/1'+(index+1)+'.jpg');
         $(this).append(img);
         $(this).append(p);
         $(this).append(p1);
