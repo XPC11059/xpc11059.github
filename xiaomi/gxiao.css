@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#xgxg{
+    height: 438px;
+    background-color: white;
+}
+
+.box_gxiao {
+    margin: 0 auto;
+    width: 1226px;
+    height: 438px;
+}
+
+/**********  小米明星单品 头部     ***********/
+
+.box_gxiao_hd {
+    width: 1226px;
+    height: 58px;
+    position: relative;
+}
+/**********  左边文字  ***********/
+.box_gxiao_hd_title {
+    font-size: 25px;
+    line-height: 58px;
+    color: #333;
+    font-weight: 200;
+    float: left;
+    /*-webkit-font-smoothing: antialiased;*/
+    font-family: "Adobe Kaiti Std";
+}
+/**********  右边按钮  ***********/
+.box_gxiao_hd_btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -12px;
+}
+.box_gxiao_hd_btn span {
+    display: block;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+}
+/**********  右边按钮 --- 左切换  ***********/
+.box_gxiao_hd_btn_prev {
+    border: 1px solid #dddddd;
+    border-right: none;
+    width: 34px;
+    height: 22px;
+    float: left;
+}
+/**********  右边按钮 --- 右切换 ***********/
+.box_gxiao_hd_btn_next {
+    border: 1px solid #dddddd;
+    width: 34px;
+    height: 22px;
+    float: right;
+}
+.box_gxiao_hd_btn_prev:hover {
+    color: darkorange;
+}
+.box_gxiao_hd_btn_next:hover {
+    color: darkorange;
+}
+
+
+
+
+
+
+
+/*********  小米明星单品 手机图片    ********/
+
+.box_gxiao .banner {
+    position: relative;
+    width: 1226px;
+    height: 340px;
+    overflow: hidden;
+}
+.box_gxiao .banner ul {
+    list-style: none;
+    width: 2480px;
+    height: 340px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+
+.box_gxiao .banner .li_left {
+    margin-left: 0;
+}
+/*.box_gxiao_bd .banner  ul li,*/
+.box_gxiao .banner ul li {
+    width: 234px;
+    height: 339px;
+    background-color: #fafafa;
+    float: left;
+    margin-left: 14px;
+}
+.box_gxiao .banner ul li a {
+    display: block;
+    text-decoration: none;
+    width: 160px;
+    margin: 0 auto 10px;
+    color: black;
+}
+/*****  图片   ****/
+.box_gxiao .banner ul li a img {
+    width: 160px;
+    height: 166px;
+    padding-top: 40px;
+}
+/*******  名字设置   ********/
+.box_gxiao .banner ul li h3 {
+    font-size: 13px;
+    margin: 0 20px 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+/****  手机介绍的设置   ***/
+.box_gxiao .banner .box_gxiao_bd_body_p {
+    color: #b0b0b0;
+    /* 省略号 */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 12px;
+    margin: 0 20px 10px;
+    /* 禁止文字自动换行 */
+    white-space: nowrap;
+}
+/*******  价格的设置   ********/
+.box_gxiao .banner ul li p {
+    color: #ff6709;
+    text-align: center;
+}
+
+    /*!******    图片顶部彩虹线   ********!*/
+
+.box_gxiao .banner ul li.rainbow-item-1{
+    border-top: 2px solid #ffac13;
+}
+.box_gxiao .banner ul li.rainbow-item-2{
+    border-top: 2px solid #83c44e;
+}
+.box_gxiao .banner ul li.rainbow-item-3{
+    border-top: 2px solid #2196f3;
+}
+.box_gxiao .banner ul li.rainbow-item-4{
+    border-top: 2px solid #e53935;
+}
+.box_gxiao .banner ul li.rainbow-item-5{
+    border-top: 2px solid #00c0a5;
+}
+.box_gxiao .banner ul li.rainbow-item-6{
+    border-top: 2px solid #ffac13;
+}
+.box_gxiao .banner ul li.rainbow-item-7{
+    border-top: 2px solid #83c44e;
+}
+.box_gxiao .banner ul li.rainbow-item-8{
+    border-top: 2px solid #2196f3;
+}
+.box_gxiao .banner ul li.rainbow-item-9{
+    border-top: 2px solid #e53935;
+}
+.box_gxiao .banner ul li.rainbow-item-10{
+    border-top: 2px solid #00c0a5;
+}
+
+
+
+
+
+
+
+
+
+
+
+

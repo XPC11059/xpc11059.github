@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f5f5f5;
+    /*  全局字体设置 */
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+.box2_gxiao {
+    margin: 0 auto;
+    width: 1226px;
+    height: 358px;
+    margin-bottom: 20px;
+}
+/**********  小米明星单品 头部     ***********/
+
+.box2_gxiao_hd {
+    /*background-color: #5F9EA0;*/
+    width: 1226px;
+    height: 58px;
+    position: relative;
+}
+/**********  左边文字  ***********/
+.box2_gxiao_hd_title {
+    font-size: 25px;
+    line-height: 58px;
+    color: #333;
+    font-weight: 200;
+    float: left;
+    /*-webkit-font-smoothing: antialiased;*/
+}
+/**********  右边按钮  ***********/
+.box2_gxiao_hd_btn {
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    right: 0;
+    font-size: 18px;
+    line-height: 20px;
+    color: #b0b0b0;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+/**********  右边按钮 --- 左切换  ***********/
+.box2_gxiao_hd_btn .box2_gxiao_hd_btn_left {
+    border: 1px solid #e0e0e0;
+    border-right: none;
+    width: 34px;
+    height: 22px;
+    float: left;
+}
+.box2_gxiao_hd_btn_left:hover{
+	color: darkorange;
+}
+/**********  右边按钮 --- 右切换 ***********/
+.box2_gxiao_hd_btn .box2_gxiao_hd_btn_right {
+    border: 1px solid #e0e0e0;
+    width: 34px;
+    height: 22px;
+    float: right;
+}
+.box2_gxiao_hd_btn_right:hover{
+	color: darkorange;
+}
+
+
+
+
+/******   下边广告图片   ********/
+.box2_gxiao .content {
+    width: 1226px;
+    height: 320px;
+    /*background-color: #dddddd;*/
+   position: relative;
+    overflow: hidden;
+}
+.box2_gxiao .content ul {
+    list-style: none;
+    width: 4960px;
+    height: 314px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*background-color: #F0F0F0;*/
+}
+.box2_gxiao .content ul li {
+    width: 234px;
+    height: 300px;
+    float: left;
+    background-color: #fff;
+    margin-bottom: 14px;
+    margin-right: 14px;
+    /*font-size: 13px;*/
+    /*font-weight: 300;*/
+    position: relative;
+}
+.box2_gxiao .content ul li a {
+	display: block;
+	width: 194px;
+	height: 200px;
+	margin: 0 auto;
+}
+.box2_gxiao .content ul li img {
+	width: 140px;
+	height: 140px;
+	padding: 40px 0 15px 0;
+	margin-left: 27px;
+}
+/* 品名  */
+
+.box2_gxiao .content ul li span {
+	display: block;
+	width: 194px;
+	height: 18px;
+	margin: 0 auto 10px auto;
+	text-align: center;
+	line-height: 18px;
+}
+.box2_gxiao .content ul li span a {
+    width: 194px;
+    height: 18px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.box2_gxiao .content ul li p {
+	width: 194px;
+	height: 20px;
+	margin: 0 auto 10px auto;
+	text-align: center;
+	line-height: 20px;
+	color: #757575;
+}
+.box2_gxiao .content .cost_color {
+	color: #ff6700;
+}
+
+
+
+
+
+
+
+
+
+

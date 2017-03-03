@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#xpc{
+    background-color:#f5f5f5;
+}
+#accessories{
+    width: 1226px;
+    height: 686px;
+    margin: 0 auto 8px;
+}
+#accessories #accessories_left{
+    float: left;
+    margin-left: -14px;
+    margin-bottom: -14px;
+}
+#accessories #accessories_left li{
+    height: 300px;
+}
+#accessories #accessories_left img{
+    width: 234px;
+    height: 300px;
+}
+#accessories  #box_bd ul li{
+    margin-left: 14px;
+    margin-bottom: 14px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration:dashed;
+}
+/*#accessories  #box_bd li:hover{*/
+/*top: -2px;*/
+
+/*}*/
+#accessories  #box_bd #accessories_content li:hover img{
+transform: scale(1.05, 1.05);
+transition: 0.5s transform;
+z-index: 1;
+}
+#accessories  #box_bd #accessories_content img{
+    width: 150px;
+    height: 150px;
+    margin: 34px 0 18px 0;
+}
+#accessories #box_hd #title{
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 58px;
+}
+#accessories #box_hd #nav ul,#accessories #box_bd ul{
+    list-style: none;
+}
+/*#accessories #box-hd #nav ul{*/
+/*height: 42px;*/
+/*}*/
+#accessories #box_hd #nav ul li{
+    float: left;
+    margin-left: 30px;
+    height: 26px;
+    line-height: 26px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+#accessories #box_hd{
+    width: 1226px;
+    height: 58px;
+}
+#accessories #title{
+    float: left;
+    transition-duration: 1s, 3s, 5s;
+}
+#accessories #nav{
+    float: right;
+    padding: 16px 0 0 ;
+}
+#accessories #nav .col{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+#accessories #accessories_content{
+    width: 992px;
+    height: 614px;
+    float: right;
+}
+#accessories  #box_bd #accessories_content .brick-item-s{
+    width: 234px;
+    height: 143px;
+}
+#accessories  #box_bd #accessories_content .brick-item-s img{
+    position: absolute;
+    right: 20px;
+    top: 32px;
+    margin: 0;
+}
+#accessories  #box_bd #accessories_content h3{
+    width: 214px;
+    height: 21px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 10px;
+    text-overflow: ellipsis;
+    font-weight: 400;
+    font-size: 14px;
+}
+#accessories  #box_bd #accessories_content span{
+    color: #ff6700;
+    margin: 10px;
+}
+#accessories  #box_bd #accessories_content p{
+    margin-bottom: 20px;
+}
+#accessories  #box_bd #accessories_content div{
+    font-size: 12px;
+    color:  #b0b0b0;
+}
+#accessories  #box_bd #accessories_content .qqw{
+    background-color:#ff6700;
+    color: white;
+    width:234px;
+    height: 75px;
+    position:absolute;
+    bottom:-75px;
+    left:0;
+    font-size: 12px;
+    font-weight: 600;
+}
+#accessories  #box_bd #accessories_content .qqw p{
+    padding: 10px;
+}
+#accessories  #box_bd #accessories_content .brick-item-s img{
+    width: 80px;
+    height: 80px;
+    /*margin: 18px 0;*/
+}
+#accessories  #box_bd #accessories_content .teshu img{
+    width: 55px;
+    height: 52px;
+    top:50%;
+    margin-top: -26px;
+    right:32px;
+}
+#accessories  #box_bd #accessories_content .brick-item-s h3{
+    margin-top: 45px;
+    margin-left: 30px;
+    width: 94px;
+    height: 21px;
+    text-align: left;
+}
+#accessories  #box_bd #accessories_content .brick-item-s span{
+    margin: 0;
+}
+#accessories  #box_bd #accessories_content .brick-item-s p{
+    width: 94px;
+    height: 21px;
+    text-align: left;
+    margin:10px 30px ;
+}
+#accessories #accessories_content ul li{
+    width: 234px;
+    height: 300px;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+    background-color: #fff;
+    overflow: hidden;
+}
+#accessories #accessories_content .show{
+    display: block;
+}
+#accessories #accessories_content ul{
+    display: none;
+}
+.more {
+    width:100px;
+    height: 100px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.more::before{
+    content: '浏览更多';
+    text-decoration: none;
+    font-size: 21px;
+}
+img{
+    cursor: pointer;
+}

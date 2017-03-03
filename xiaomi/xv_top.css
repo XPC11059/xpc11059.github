@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+}
+#xv_top_nav a{
+    text-decoration: none;
+    color: #bbb;
+}
+#xv_top_nav a:hover{
+    color: #ffffff;
+}
+#xv_top_nav{
+    background: #333;
+    width: auto;
+    height: 40px;
+    color: #bbb;
+    font-size: 12px;
+}
+#xv_top_nav_content{
+    width: 1226px;
+    height: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    line-height: 40px;
+
+}
+#xv_top_nav_content a{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#xv_top_nav_left{
+    width: 610px;
+    height: 40px;
+    color: #424242;
+    float: left;
+}
+#xv_top_nav_left a{
+    color: #bbb;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+#xv_top_nav_right{
+    float: right;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: #9e9e9e;
+    background: #424242;
+    position: relative;
+    z-index: 5;
+}
+#xv_top_nav_right a{
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 14px;
+    width: 120px;
+    height: 40px;
+    display: block;
+}
+#xv_shop_car{
+    display: none;
+    height: 98px;
+    width: 317px;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    text-align: center;
+    line-height: 100px;
+    background: white;
+    z-index: 0;
+    box-shadow: 0 2px 1px 1px #eeeeee;
+}
+
+#xv_top_nav_middle{
+    float: right;
+    color: #424242;
+    margin-right: 20px;
+}

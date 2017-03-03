@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        #box #box_bg{
+            position: relative;
+            margin:0 auto;
+            width:1130px;
+            height:600px;
+            background-image: url(https://account.xiaomi.com/static/res/e2f19bb/account-static/respassport/images/banner.jpg);
+        }
+        #box{
+            width:100%;
+            background-color: #14212B;
+            margin-top: 100px;
+        }
+        body{
+            font-family: arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<!--<div style="position: absolute;width: 100%;height: 100%;">-->
+    <!--<iframe width="100%" height="686px" src="https://account.xiaomi.com/static/res/87f9cb3/account-static/respassport/html/loginbanner.html"></iframe>-->
+    <!--<button> <a href="xiaomi.html" style="text-decoration: none">返回首页</a></button>-->
+<!--</div>-->
+
+<div id="box">
+    <!--登录表单-->
+    <div id="box_bg">
+        <div style="width: 400px;height: 500px;background-color:white;padding-top: 10px;margin-left: 730px;top:50%;margin-top:-250px;position: absolute;left: 0;text-align: center">
+            <div style="margin-bottom: 30px;margin-top: 20px;text-align: center">
+                <a align="center" style="font-size:24px;color: #f56600">账号登录</a>
+            </div>
+            <form align="center">
+                <input type="text" id="username" placeholder="邮箱/手机号/已有账号" style="display: inline-block;width: 300px;height: 40px;padding-left: 10px"><br><br>
+                <input type="password" id="password" placeholder="密码"  style="display: inline-block;width: 300px;height: 40px;padding-left: 10px"><br><br>
+            </form>
+
+            <input type="button" id="btn" value="立即登录" style="display: inline-block;width: 315px;height: 46px;background-color: #f56600;padding-left: 10px;border: 1px solid #f56600;font-size: 20px;color: white;cursor: pointer;">
+            <div align="center" style="margin-top: 20px">
+                <a href="zhuce.html" style="text-decoration: none;color: #9e9e9e;font-size: 16px">注册小米账号 |</a>
+                <a href="#" style="text-decoration: none;color: #9e9e9e;font-size: 16px">忘记密码?</a>
+            </div>
+        </div>
+    </div>
+</div>
+<h1></h1>
+<script>
+    window.onload=function(){
+        document.querySelector('#btn').onclick=function(){
+            var xhr =new XMLHttpRequest();
+
+            xhr.open('post','denglu.php',true);
+//            请求头
+            xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+//            请求体
+            var username=document.querySelector('#username').value;
+            var password=document.querySelector('#password').value;
+            var para="username="+username+"&password="+password;
+
+//            发送请求
+            xhr.send(para);
+//            监听
+            xhr.onreadystatechange=function () {
+                if (xhr.readyState==4 && xhr.status ==200){
+//                    alert('ww');
+                    var data = xhr.responseText;
+                    if (data==1){
+                        alert('密码正确,登录成功');
+                        document.location.href="xiaomi.html";
+                    }else{
+                        alert('密码错误');
+                    }
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>
