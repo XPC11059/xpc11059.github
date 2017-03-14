@@ -1,0 +1,57 @@
+#content #production{
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    box-shadow: grey 3px 1px 25px;
+    border-radius: 5px;
+    background-color: white;
+}
+.production_list{
+    margin: 60px auto;
+    width: 1000px;
+}
+.production_list ul{
+    width: 460px;
+    height: 400px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 20px;
+    float: left;
+    text-align: center;
+}
+.works_box:before {
+    content: '';
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0 0 30px 0;
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.4);
+    -webkit-transform: rotate(-20deg) skew(-40deg, -3deg) translate(-13px, -13px);
+    -moz-transform: rotate(-20deg) skew(-40deg, -3deg) translate(-13px, -13px);
+    -o-transform: rotate(-20deg) skew(-40deg, -3deg) translate(-13px, -13px);
+    transform: rotate(-20deg) skew(-40deg, -3deg) translate(-13px, -13px);
+}
+.works_box{
+    display: block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 0 0 55px 0;
+    border: #EAE6E7 1px solid;
+    padding: 4px;
+}
+.works_box img{
+     width: 100%;
+     height: 100%;
+     border-radius: 0 0 50px 0;
+     -webkit-transition:  0.5s;
+ }
+.works_box img:hover{
+    -webkit-transform:rotate(360deg);
+}

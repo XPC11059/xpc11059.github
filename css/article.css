@@ -1,0 +1,86 @@
+#content #article{
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    box-shadow: grey 3px 1px 25px;
+    border-radius: 5px;
+    background-color: white;
+}
+.bloglist {
+    width: 1000px;
+    margin: 60px auto;
+    background: url(../img/r_title_bg.jpg) repeat-y 784px 0;
+    overflow: hidden;
+    color: #756F71;
+}
+.arrow_box {
+    background: #f8f8f8;
+    box-shadow: 0 1px 0 rgba(255,255,255,.1), inset 0 1px 1px rgba(214, 214, 214, 0.7);
+    width: 730px;
+    border-radius: 6px;
+    position: relative;
+    padding: 20px 0;
+    margin: 20px 20px;
+}
+.arrow_box:hover {
+    background: #f4f2f2;
+    color: #333;
+    text-shadow: #f7f7f7 1px 1px 1px;
+}
+.arrow_box::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 20px 22px;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    left: 730px;
+    top: 23px;
+}
+.arrow_box::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 758px;
+    top: 16px;
+    background: #CCCCCE;
+    border: 2px solid #fff;
+    transition: all 0.5s;
+}
+.arrow_box:hover::after {
+    border: #fff 2px solid;
+    background: saddlebrown;
+}
+.arrow_box:hover::before {
+    border-color: transparent transparent transparent #CECCCD;
+}
+
+.arrow_box p {
+    line-height: 24px;
+    padding: 0 20px 20px;
+}
+.arrow_box img {
+    width: 150px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+.sy {
+    overflow: hidden;
+}
+.dateview {
+    position: absolute;
+    left: 788px;
+    top: 20px;
+    width: 125px;
+    line-height: 30px;
+    background: saddlebrown;
+    border-radius: 0 40px;
+    text-align: center;
+    color: #fff;
+}

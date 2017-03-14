@@ -1,0 +1,334 @@
+[class^="icon_"]{
+    background: url("../images/sprites.png") no-repeat;
+    background-size: 200px 200px;
+}
+.jd_layout{
+    /*background-color: red;*/
+    height: 1400px;
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 640px;
+}
+.jd_header{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*background-color: pink;*/
+    z-index: 9999;
+}
+.jd_header .jd_header_box{
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 640px;
+    height: 40px;
+    background-color: rgba(201, 21, 35, 0.85);
+    position: relative;
+}
+.jd_header .jd_header_box .icon_logo{
+    background-position: 0 -103px;
+    width: 60px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+.jd_header .jd_header_box form{
+    width: 100%;
+    height: 40px;
+    padding-left: 75px;
+    padding-right: 55px;
+    position: relative;
+}
+.jd_header .jd_header_box form .icon_search{
+    background-position: -60px -109px;
+    width: 20px;
+    height: 20px;
+    display: block;
+
+    position: absolute;
+    top: 10px;
+    left: 85px;
+
+}
+.jd_header .jd_header_box form input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.jd_header .login{
+    width: 50px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    color: #fff;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.jd_banner{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.jd_banner ul:first-child{
+    width: 1000%;
+    transform:translateX(-10%);
+}
+.jd_banner ul:first-child li{
+    width: 10%;
+    float: left;
+}
+.jd_banner ul:first-child li img{
+    width: 100%;
+    display: block;
+}
+
+/*??*/
+.jd_banner ul:last-child{
+    width: 118px;
+    height: 6px;
+    position: absolute;
+    left: 50%;
+    margin-left: -59px;
+    bottom: 10px;
+}
+
+.jd_banner ul:last-child li {
+    width: 6px;
+    height: 6px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-left: 10px;
+    float: left;
+}
+.jd_banner ul:last-child li:first-child{
+    margin-left: 0;
+}
+.col{
+    background-color: white;
+}
+.jd_banner ul:last-child li.now{
+    background: #fff;
+}
+.jd_nav{
+    height: 150px;
+    width: 100%;
+    padding: 0 3.125%;
+    padding-top: 11px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.jd_nav ul{
+    width: 100%;
+}
+.jd_nav ul li{
+    width: 25%;
+    height: 69px;
+    float: left;
+}
+.jd_nav ul li a{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.jd_nav ul li a img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+.jd_nav ul li a p{
+    font-size: 12px;
+    color: #666;
+    margin-top: 6px;
+}
+/*商品区块*/
+.jd_product{
+    margin: 0 5px;
+}
+/*公共使用的商品盒子*/
+.jd_product .jd_product_box{
+    box-shadow: 0 0 1px 1px #e0e0e0;
+    margin-top: 8px;
+    background: #fff;
+}
+/*盒子的上面*/
+.jd_product .jd_product_box .product_top{
+    height: 32px;
+    border-bottom:1px solid #e0e0e0;
+    position: relative;
+}
+/*没有边框*/
+.jd_product .jd_product_box .product_top.no_bor{
+    border-bottom:none;
+}
+
+.jd_product .jd_product_box .product_top h3{
+    font-size: 15px;
+    color: #666;
+    padding-left: 15px;
+    font-weight: inherit;
+    line-height: 32px;
+}
+.jd_product .jd_product_box .product_top h3::before{
+    content: "";
+    display: block;
+    width: 3px;
+    height: 12px;
+    background: #d8505c;
+
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+
+
+.jd_product .jd_product_box .product_bot{
+
+}
+
+
+/*秒杀*/
+.jd_secondKill{
+
+}
+.jd_secondKill .jd_secondKill_left{
+    float: left;
+}
+.jd_secondKill .jd_secondKill_left .sk_icon{
+    background: url("../images/seckill-icon.png") no-repeat;
+    background-size: 16px 20px;
+    width: 16px;
+    height: 20px;
+    display: block;
+    float: left;
+    margin-left: 8px;
+    margin-top: 6px;
+
+}
+.jd_secondKill .jd_secondKill_left .sk_name{
+    font-size: 15px;
+    color: #d8505c;
+    font-weight: inherit;
+    float: left;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+.jd_secondKill .jd_secondKill_left .sk_time{
+    float: left;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.jd_secondKill .jd_secondKill_left .sk_time .num{
+    display: block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    float: left;
+    line-height: 15px;
+    margin-left: 3px;
+}
+.jd_secondKill .jd_secondKill_left .sk_time .str{
+    display: block;
+    width: 4px;
+    height: 15px;
+    text-align: center;
+    float: left;
+    line-height: 15px;
+    margin-left: 3px;
+}
+
+/*更多*/
+.jd_secondKill .jd_secondKill_right{
+    float: right;
+}
+.jd_secondKill .jd_secondKill_right a{
+    line-height: 32px;
+    margin-right: 10px;
+}
+/*三个商品*/
+.jd_secondKill .product_bot{
+    width: 100%;
+}
+.jd_secondKill .product_bot ul{
+    width: 100%;
+    padding: 10px 0;
+}
+.jd_secondKill .product_bot ul li{
+    width: 33.333%;
+    float: left;
+}
+.jd_secondKill .product_bot ul li a{
+    width: 100%;
+}
+
+.jd_secondKill .product_bot ul li a .img_box{
+    width: 100%;
+    border-right: 1px solid #e0e0e0;
+}
+.jd_secondKill .product_bot ul li:last-child a .img_box{
+    border-right:none;
+}
+.jd_secondKill .product_bot ul li a .img_box img{
+    width: 64%;
+    display: block;
+    margin: 0 auto;
+}
+
+.jd_secondKill .product_bot ul li a .now_price{
+    color: #d8505c;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 3px;
+}
+.jd_secondKill .product_bot ul li a .old_price{
+    font-size: 12px;
+    text-decoration: line-through;/*删除线*/
+    margin-top: 3px;
+    text-align: center;
+    color: #888;
+}
+/*超值购*/
+.jd_product .jd_pd .product_bot{
+    width: 100%;
+}
+/*左边的大图片a*/
+.jd_product .jd_pd .product_bot .p_left{
+    width: 50%;
+    float: left;
+}
+/*左边的大图片a*/
+.jd_product .jd_pd .product_bot .p_right{
+    width: 50%;
+    float: right;
+}
+/*左边框*/
+.jd_product .jd_pd .product_bot .b_left{
+    border-left: 1px solid #e0e0e0;
+}
+/*右边框*/
+.jd_product .jd_pd .product_bot .b_right{
+    border-right: 1px solid #e0e0e0;
+}
+/*下边框*/
+.jd_product .jd_pd .product_bot .b_bottom{
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.jd_product .jd_pd .product_bot a img{
+    width: 100%;
+    display: block;
+}

@@ -1,0 +1,9 @@
+#content #daily{
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: lightgoldenrodyellow;
+    display: none;
+}

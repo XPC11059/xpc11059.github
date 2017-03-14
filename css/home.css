@@ -1,0 +1,47 @@
+#content #home{
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: white;
+    padding-top: 30px;
+    box-shadow: grey 3px 1px 25px;
+    border-radius: 5px;
+}
+.day{
+    width: 700px;
+    margin: 30px 0 50px 30px;
+    background: url("../img/day-bg.png") no-repeat right bottom;
+}
+/*标题设置*/
+.postTitle{
+    font-size: 30px;
+    border-left: 3px solid black;
+    padding-left: 10px;
+    line-height: 30px;
+}
+.postTitle a{
+    color: brown;
+    text-decoration: none;
+    -webkit-transition: all 1s;
+}
+.postTitle a:hover{
+    padding-left: 30px;
+    color: black;
+}
+/*内容*/
+.postCon{
+    margin: 20px 0;
+    line-height: 25px;
+}
+.postCon a{
+    color: #000000;
+    font-weight: 800;
+}
+/*日期*/
+.postDate{
+    color: gray;
+    font-size: 14px;
+}
+

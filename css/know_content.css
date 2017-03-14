@@ -1,0 +1,35 @@
+body, html, div, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #27547d;
+}
+.know_head{
+    width: 1265px;
+    height: 100px;
+    background: url("../img/o_bookTop1280.jpg");
+}
+.know_content{
+    width: 866px;
+    padding-left:100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: url("../img/o_bookBG1280.jpg");
+}
+.content{
+    width: 700px;
+    margin-left: 20px;
+}
+.know_content p{
+    line-height: 25px;
+    margin:20px 0
+}
+textarea{
+    resize:none;
+    background-color: whitesmoke;
+    outline:none;
+    width: 694px;
+    height: 400px;
+    overflow-y:visible;
+}

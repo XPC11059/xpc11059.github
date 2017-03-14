@@ -1,0 +1,36 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+
+    -webkit-tap-highlight-color: transparent; /*iOS系统  有个默认点击红色效果*/
+    -webkit-box-sizing: border-box; /*盒子边框确定width height*/
+}
+body{
+    font-size: 14px;
+    font-family: "Microsoft Yahei", sans-serif; /*后一个是手机默认字体*/
+    color: #000000;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+
+input,textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    -webkit-appearance: none;/*去掉input手机默认显示效果*/
+}
+
+.clearfix::before,
+.clearfix::after{
+    content: '.';
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
