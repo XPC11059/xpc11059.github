@@ -1,9 +1,16 @@
 #content #daily{
     width: 1000px;
+    height: 900px;
     margin: 0 auto;
     position: absolute;
     left: 0;
     top: 0;
-    background-color: lightgoldenrodyellow;
+    background-color: white;
     display: none;
+    box-shadow: grey 3px 1px 25px;
+    border-radius: 5px;
+}
+.daily-content{
+    width: 800px;
+    margin: 40px auto;
 }

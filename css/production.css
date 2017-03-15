@@ -9,6 +9,40 @@
     border-radius: 5px;
     background-color: white;
 }
+.ribbon {
+    width: 70%;
+    max-width: 400px;
+    min-height: 66px;
+    position: relative;
+    text-align: center;
+    line-height: 4rem;
+    margin: -3em auto 2em;
+    color: #fff;
+    background-color: #E0CB77;
+    font-size: 1em;
+    z-index: 222;
+}
+.ribbon:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -60px;
+    border-bottom: 0;
+    width: 95px;
+    height: 78px;
+    background: url(../img/ribbonTail.png) no-repeat;
+}
+.ribbon:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: -60px;
+    border-bottom: 0;
+    width: 95px;
+    height: 78px;
+    background: url(../img/ribbonTail.png) no-repeat;
+    transform: scaleX(-1);
+}
 .production_list{
     margin: 60px auto;
     width: 1000px;
@@ -21,6 +55,12 @@
     padding: 20px;
     float: left;
     text-align: center;
+}
+#production .production_list h2{
+    color: cornflowerblue;
+}
+#production .production_list p{
+    color: gray;
 }
 .works_box:before {
     content: '';
@@ -39,7 +79,7 @@
 .works_box{
     display: block;
     width: 300px;
-    height: 300px;
+    height: 200px;
     position: relative;
     margin: 0 auto;
     border-radius: 0 0 55px 0;
@@ -50,8 +90,8 @@
      width: 100%;
      height: 100%;
      border-radius: 0 0 50px 0;
-     -webkit-transition:  0.5s;
+     -webkit-transition:  1s;
  }
 .works_box img:hover{
-    -webkit-transform:rotate(360deg);
+    -webkit-transform:rotateY(360deg);
 }

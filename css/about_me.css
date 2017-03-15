@@ -1,9 +1,22 @@
 #content #about_me{
     width: 1000px;
+    height: 800px;
     margin: 0 auto;
     position: absolute;
     left: 0;
     top: 0;
-    background-color: aqua;
     display: none;
+    background-color: white;
+    padding-top: 30px;
+    box-shadow: grey 3px 1px 25px;
+    border-radius: 5px;
+}
+.about_me_article{
+    color: #696969;
+    width: 700px;
+    margin: 0 auto;
+}
+.about_me_article p{
+    line-height: 25px;
+    font-size: 14px;
 }
