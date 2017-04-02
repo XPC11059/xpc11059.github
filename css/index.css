@@ -53,7 +53,7 @@ nav ul{
     right: 0;
     top: 0;
     box-shadow: grey 2px 2px 9px;
-    color: gray;
+    color: black;
     text-shadow:gray 2px 2px 2px;
     border-radius: 0 30PX;
 }
@@ -72,7 +72,7 @@ nav ul li{
 }
 .col{
     box-shadow: black 2px 3px 25px;
-    color: black;
+    color: slateblue;
 }
 #content{
     position: relative;
